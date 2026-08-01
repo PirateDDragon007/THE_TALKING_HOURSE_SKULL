@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>†~ TheDanceWithRaz ~† Лаборатория Ритуального Танца †~</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Courier+Prime&display=swap');
+
+  body {
+    background-color: #050003;
+    background-image:
+      radial-gradient(circle at 20% 30%, #1a0006 0%, transparent 40%),
+      radial-gradient(circle at 80% 70%, #0a0014 0%, transparent 40%),
+      repeating-linear-gradient(0deg, #060003, #060003 2px, #0a0005 2px, #0a0005 4px);
+    color: #8a1f1f;
+    font-family: "Courier Prime", "Courier New", monospace;
+    margin: 0;
+    padding: 0;
+  }
+  a { color: #b30000; text-decoration: none; }
+  a:hover { color: #ff2a2a; text-shadow: 0 0 6px #ff0000; }
+
+  .container {
+    max-width: 820px;
+    margin: 20px auto;
+    background: #0a0508;
+    border: 2px solid #4a0000;
+    box-shadow: 0 0 40px #330000, inset 0 0 60px #000000;
+    padding: 12px;
+  }
+
+  h1 {
+    text-align: center;
+    font-family: "UnifrakturMaguntia", cursive;
+    color: #c40000;
+    font-size: 48px;
+    text-shadow: 0 0 10px #ff0000, 0 0 25px #660000;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+  }
+  .subtitle {
+    text-align: center;
+    color: #5a5a6a;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-top: 4px;
+  }
+
+  .sigil-row {
+    text-align: center;
+    color: #6b0f0f;
+    font-size: 22px;
+    letter-spacing: 12px;
+    margin: 10px 0;
+    text-shadow: 0 0 8px #ff0000;
+  }
+
+  .navbar {
+    background: #120005;
+    border-top: 1px solid #4a0000;
+    border-bottom: 1px solid #4a0000;
+    text-align: center;
+    padding: 8px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .navbar a { margin: 0 12px; color: #999999; }
+  .navbar a:hover { color: #ff2a2a; }
+
+  .scan-box {
+    background: #000000;
+    border: 1px solid #2a2a2a;
+    color: #33ff33;
+    padding: 6px 10px;
+    font-family: "Courier Prime", monospace;
+    font-size: 12px;
+    margin: 10px 0;
+  }
+
+  .warning {
+    background: #1a0000;
+    color: #ff3333;
+    border: 1px dashed #660000;
+    text-align: center;
+    font-weight: bold;
+    padding: 6px;
+    margin: 12px 0;
+    letter-spacing: 1px;
+  }
+  .flicker { animation: flicker 2.4s infinite; }
+  @keyframes flicker {
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% { opacity: 1; }
+    20%, 22%, 24%, 55% { opacity: 0.25; }
+  }
+
+  table.layout { width: 100%; border-collapse: collapse; }
+  td.sidebar {
+    background: #0d0006;
+    border-right: 1px solid #330000;
+    width: 190px;
+    vertical-align: top;
+    padding: 10px;
+    color: #7a7a8a;
+    font-size: 12px;
+  }
+  td.main { padding: 12px; vertical-align: top; color: #b8b0b0; }
+
+  h2 {
+    color: #c40000;
+    border-bottom: 1px solid #4a0000;
+    padding-bottom: 4px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .glyphs { color: #444; font-size: 10px; text-align: center; margin: 6px 0; letter-spacing: 6px; }
+
+  .readout {
+    background: #000;
+    border: 1px solid #222;
+    color: #33ff33;
+    font-size: 11px;
+    padding: 8px;
+    margin-bottom: 10px;
+    white-space: pre-line;
+  }
+
+  .guestbook {
+    background: #050002;
+    border: 1px solid #330000;
+    padding: 8px;
+    margin-top: 12px;
+    font-size: 12px;
+  }
+  .entry { border-bottom: 1px dotted #330000; padding: 5px 0; color: #999; }
+  .entry b { color: #b30000; }
+
+  .counter {
+    background: #000;
+    color: #33ff33;
+    font-family: "Courier Prime", monospace;
+    border: 1px solid #222;
+    padding: 3px 8px;
+    display: inline-block;
+    letter-spacing: 4px;
+  }
+
+  .circle-divider {
+    text-align: center;
+    color: #4a0000;
+    margin: 14px 0;
+    font-size: 14px;
+    letter-spacing: 10px;
+  }
+
+  .footer {
+    text-align: center;
+    font-size: 10px;
+    color: #444;
+    margin-top: 16px;
+    border-top: 1px solid #330000;
+    padding-top: 8px;
+    letter-spacing: 1px;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <h1>TheDanceWithRaz</h1>
+  <p class="subtitle">Лаборатория Ритуального Танца · Отдел Прикладной Хореомантии</p>
+  <div class="sigil-row">☾ ⛧ ☉ ⛧ ☽</div>
+
+  <div class="navbar">
+    <a href="#glavnaya">ГЛАВНАЯ</a> |
+    <a href="#protokoly">ПРОТОКОЛЫ</a> |
+    <a href="#foto">АРХИВ НАБЛЮДЕНИЙ</a> |
+    <a href="#zvuk">ЗВУКОВЫЕ КОНТУРЫ</a> |
+    <a href="final.7z">ЗАСЕКРЕЧЕННЫЙ АРХИВ</a> |
+    <a href="#gostevaya">КНИГА СВИДЕТЕЛЬСТВ</a> |
+    <a href="#kontakt">СВЯЗЬ</a>
+  </div>
+
+  <div class="scan-box">
+    &gt; ИНИЦИАЛИЗАЦИЯ... OK<br>
+    &gt; СТАТУС РИТУАЛЬНОГО КОНТУРА: АКТИВЕН<br>
+    &gt; ФАЗА ЛУНЫ: УБЫВАЮЩАЯ &nbsp;|&nbsp; РЕЗОНАНС: 66.6 Гц &nbsp;|&nbsp; УЧАСТНИКОВ ОНЛАЙН: 13
+  </div>
+
+  <div class="warning flicker">
+    ⚠ ДОСТУП ОГРАНИЧЕН — МАТЕРИАЛЫ ПРЕДНАЗНАЧЕНЫ ДЛЯ ПОСВЯЩЁННЫХ ИССЛЕДОВАТЕЛЕЙ ⚠
+  </div>
+
+  <table class="layout">
+    <tr>
+      <td class="sidebar">
+        <b>:: НАВИГАЦИЯ ::</b><br><br>
+        » <a href="#glavnaya">Главная</a><br>
+        » <a href="#protokoly">Протоколы танца</a><br>
+        » <a href="#foto">Архив наблюдений</a><br>
+        » <a href="#zvuk">Звуковые контуры</a><br>
+        » <a href="#archiv">Засекреченный архив</a><br>
+        » <a href="#o-raze">О Разе</a><br>
+        » <a href="#gostevaya">Книга свидетельств</a><br><br>
+
+        <b>:: СЧЁТЧИК ОБРЯДОВ ::</b><br>
+        <div class="counter">000666</div>
+        <br><br>
+
+        <b>:: ЛАБОРАТОРНЫЙ ЖУРНАЛ ::</b>
+        <div class="readout">День 041
+т° очага: 36.6°C
+пульс контура: стаб.
+аномалий: 0
+---
+День 042
+т° очага: 41.2°C
+пульс контура: нестаб.
+аномалий: 3</div>
+
+        <div class="glyphs">☤ ⚗ ☿ ♄ ⛧</div>
+
+      </td>
+
+      <td class="main">
+        <a name="glavnaya"></a>
+        <h2>Вступление</h2>
+        <p>Настоящий ресурс документирует полевые исследования танца как ритуального контура — точки пересечения телесного движения, звукового резонанса и наблюдаемых аномалий. Раз выступает главным субъектом наблюдения и одновременно проводником обряда.</p>
+
+        <div class="circle-divider">◯ ⛧ ◯</div>
+
+        <a name="protokoly"></a>
+        <h2>Протоколы</h2>
+        <p>Протокол №1 — «Вызов Ритма» — 7 повторов, по часовой стрелке.<br>
+        Протокол №2 — «Контур Тишины» — синхронизация дыхания с метрономом 40 уд/мин.<br>
+        Протокол №3 — «Разомкнутый Круг» — исполняется только при новолунии.</p>
+        <p><i>Полные записи протоколов доступны по запросу через раздел «Связь».</i></p>
+
+        <a name="foto"></a>
+        <h2>Архив наблюдений</h2>
+        <p>[ снимок 001 — искажение ] &nbsp; [ снимок 002 — контур ] &nbsp; [ снимок 003 — след ]<br>
+        <i>Часть материалов засекречена до завершения анализа.</i></p>
+
+        <a name="zvuk"></a>
+        <h2>Звуковые контуры</h2>
+        <p>▶ Запись 1 — "Резонанс Раза" (66.6 Гц, петля)<br>
+        ▶ Запись 2 — "Шёпот Контура" (низкочастотный гул)<br>
+        <i>Не рекомендуется прослушивание в одиночестве после полуночи.</i></p>
+
+        <a name="archiv"></a>
+        <h2>Засекреченный архив</h2>
+        <div class="scan-box">
+          &gt; ФАЙЛ: final.7z<br>
+          &gt; РАЗМЕР: 3.96 МБ<br>
+          &gt; СТАТУС: 🔒 ЗАШИФРОВАНО — ТРЕБУЕТСЯ КЛЮЧ ДОСТУПА<br>
+          &gt; УРОВЕНЬ ДОПУСКА: ХРАНИТЕЛЬ<br>
+          &gt; <a href="final.7z">[ ЗАПРОСИТЬ ЗАГРУЗКУ ]</a>
+        </div>
+        <p><i>Содержимое архива не подлежит раскрытию без прохождения протокола идентификации. Материалы предоставляются только посвящённым исследователям Круга.</i></p>
+
+        <a name="gostevaya"></a>
+        <h2>Книга свидетельств</h2>
+        <div class="guestbook">
+          <div class="entry"><b>Наблюдатель_09:</b> после протокола №2 видел контур во сне три ночи подряд.</div>
+          <div class="entry"><b>Хранитель_Ветра:</b> резонанс подтверждаю, приборы зафиксировали скачок.</div>
+          <div class="entry"><b>Аноним:</b> кто-нибудь ещё чувствует пульс на 66.6?</div>
+          <div class="entry"><b>Т.С.:</b> присоединяюсь к исследованию, жду доступ к протоколу №3.</div>
+        </div>
+        <p><i>[ Оставить свидетельство ]</i></p>
+      </td>
+    </tr>
+  </table>
+
+  <div class="circle-divider">⛧ ☾ ⛧</div>
+
+  <div class="footer">
+    © TheDanceWithRaz — Лаборатория Ритуального Танца. Все наблюдения фиксируются добровольно.<br>
+    Материалы носят исследовательский характер и являются художественным вымыслом.<br>
+    Куратор архива: Раз | signal@thedancewithraz.void
+  </div>
+
+</div>
+
+</body>
+</html>
